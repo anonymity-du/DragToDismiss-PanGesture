@@ -6,4 +6,4 @@
 
 ![image](https://github.com/anonymity-du/DragToDismiss-PanGesture/blob/master/imageFolder/drag_01.gif)
 
-![image](https://github.com/anonymity-du/DragToDismiss-swift/blob/master/imageFolder/drag_02.gif)
+![image](https://github.com/anonymity-du/DragToDismiss-PanGesture/blob/master/imageFolder/drag_02.gif)
