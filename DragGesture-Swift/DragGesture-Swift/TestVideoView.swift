@@ -16,10 +16,6 @@ class TestVideoView: UIView {
     var insideFrame = CGRect.zero
     var gesture: DragGestureHandler?
     
-    deinit {
-        NotificationCenter.default.removeObserver(self)
-    }
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
