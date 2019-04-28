@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2323580A22745BFD004D88A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2323580922745BFD004D88A3 /* AppDelegate.swift */; };
+		2323580C22745BFD004D88A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2323580B22745BFD004D88A3 /* ViewController.swift */; };
+		2323580F22745BFD004D88A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2323580D22745BFD004D88A3 /* Main.storyboard */; };
+		2323581122745BFE004D88A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2323581022745BFE004D88A3 /* Assets.xcassets */; };
+		2323581422745BFE004D88A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2323581222745BFE004D88A3 /* LaunchScreen.storyboard */; };
+		2323581C22745CA4004D88A3 /* DragGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2323581B22745CA4004D88A3 /* DragGestureHandler.swift */; };
+		2323581E22745E05004D88A3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2323581D22745E05004D88A3 /* UIView+Extension.swift */; };
+		2323582022745E83004D88A3 /* TestVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2323581F22745E83004D88A3 /* TestVideoView.swift */; };
+		2323582222745E97004D88A3 /* TestImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2323582122745E97004D88A3 /* TestImageView.swift */; };
+		2323582422746286004D88A3 /* testVideo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 2323582322746285004D88A3 /* testVideo.MOV */; };
+		2323582622746974004D88A3 /* testVideoCover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2323582522746974004D88A3 /* testVideoCover.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2323580622745BFD004D88A3 /* DragGesture-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DragGesture-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2323580922745BFD004D88A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2323580B22745BFD004D88A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2323580E22745BFD004D88A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2323581022745BFE004D88A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2323581322745BFE004D88A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2323581522745BFE004D88A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2323581B22745CA4004D88A3 /* DragGestureHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureHandler.swift; sourceTree = "<group>"; };
+		2323581D22745E05004D88A3 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2323581F22745E83004D88A3 /* TestVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVideoView.swift; sourceTree = "<group>"; };
+		2323582122745E97004D88A3 /* TestImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageView.swift; sourceTree = "<group>"; };
+		2323582322746285004D88A3 /* testVideo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = testVideo.MOV; sourceTree = "<group>"; };
+		2323582522746974004D88A3 /* testVideoCover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testVideoCover.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2323580322745BFD004D88A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232357FD22745BFD004D88A3 = {
+			isa = PBXGroup;
+			children = (
+				2323580822745BFD004D88A3 /* DragGesture-Swift */,
+				2323580722745BFD004D88A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2323580722745BFD004D88A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2323580622745BFD004D88A3 /* DragGesture-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2323580822745BFD004D88A3 /* DragGesture-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2323580922745BFD004D88A3 /* AppDelegate.swift */,
+				2323580B22745BFD004D88A3 /* ViewController.swift */,
+				2323581D22745E05004D88A3 /* UIView+Extension.swift */,
+				2323581F22745E83004D88A3 /* TestVideoView.swift */,
+				2323582122745E97004D88A3 /* TestImageView.swift */,
+				2323581B22745CA4004D88A3 /* DragGestureHandler.swift */,
+				2323582522746974004D88A3 /* testVideoCover.jpg */,
+				2323582322746285004D88A3 /* testVideo.MOV */,
+				2323580D22745BFD004D88A3 /* Main.storyboard */,
+				2323581022745BFE004D88A3 /* Assets.xcassets */,
+				2323581222745BFE004D88A3 /* LaunchScreen.storyboard */,
+				2323581522745BFE004D88A3 /* Info.plist */,
+			);
+			path = "DragGesture-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2323580522745BFD004D88A3 /* DragGesture-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2323581822745BFE004D88A3 /* Build configuration list for PBXNativeTarget "DragGesture-Swift" */;
+			buildPhases = (
+				2323580222745BFD004D88A3 /* Sources */,
+				2323580322745BFD004D88A3 /* Frameworks */,
+				2323580422745BFD004D88A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DragGesture-Swift";
+			productName = "DragGesture-Swift";
+			productReference = 2323580622745BFD004D88A3 /* DragGesture-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232357FE22745BFD004D88A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = du;
+				TargetAttributes = {
+					2323580522745BFD004D88A3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 2323580122745BFD004D88A3 /* Build configuration list for PBXProject "DragGesture-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 232357FD22745BFD004D88A3;
+			productRefGroup = 2323580722745BFD004D88A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2323580522745BFD004D88A3 /* DragGesture-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2323580422745BFD004D88A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2323582422746286004D88A3 /* testVideo.MOV in Resources */,
+				2323581422745BFE004D88A3 /* LaunchScreen.storyboard in Resources */,
+				2323581122745BFE004D88A3 /* Assets.xcassets in Resources */,
+				2323582622746974004D88A3 /* testVideoCover.jpg in Resources */,
+				2323580F22745BFD004D88A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2323580222745BFD004D88A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2323580C22745BFD004D88A3 /* ViewController.swift in Sources */,
+				2323581C22745CA4004D88A3 /* DragGestureHandler.swift in Sources */,
+				2323581E22745E05004D88A3 /* UIView+Extension.swift in Sources */,
+				2323580A22745BFD004D88A3 /* AppDelegate.swift in Sources */,
+				2323582222745E97004D88A3 /* TestImageView.swift in Sources */,
+				2323582022745E83004D88A3 /* TestVideoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2323580D22745BFD004D88A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2323580E22745BFD004D88A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2323581222745BFE004D88A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2323581322745BFE004D88A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2323581622745BFE004D88A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2323581722745BFE004D88A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2323581922745BFE004D88A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQR28XF52U;
+				INFOPLIST_FILE = "DragGesture-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.du.DragGesture-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2323581A22745BFE004D88A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQR28XF52U;
+				INFOPLIST_FILE = "DragGesture-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.du.DragGesture-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2323580122745BFD004D88A3 /* Build configuration list for PBXProject "DragGesture-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2323581622745BFE004D88A3 /* Debug */,
+				2323581722745BFE004D88A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2323581822745BFE004D88A3 /* Build configuration list for PBXNativeTarget "DragGesture-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2323581922745BFE004D88A3 /* Debug */,
+				2323581A22745BFE004D88A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232357FE22745BFD004D88A3 /* Project object */;
+}
